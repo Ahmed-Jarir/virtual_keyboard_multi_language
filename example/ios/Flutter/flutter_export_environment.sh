@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/yara/Development/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/yara/Desktop/mine/virtual_keyboard_multi_language/example"
+export "FLUTTER_ROOT=/home/ahmed/snap/flutter/common/flutter"
+export "FLUTTER_APPLICATION_PATH=/home/ahmed/Documents/maxflow/virtual_keyboard_multi_language/example"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"

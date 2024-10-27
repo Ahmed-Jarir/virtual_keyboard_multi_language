@@ -53,6 +53,7 @@ const List<List> _defaultEnglishLayout = [
     '8',
     '9',
     '0',
+    VirtualKeyboardKeyAction.Delete
   ],
   // Row 2
   const [
@@ -79,13 +80,11 @@ const List<List> _defaultEnglishLayout = [
     'j',
     'k',
     'l',
-    ';',
-    '\'',
+    // '\'',
     VirtualKeyboardKeyAction.Return
   ],
   // Row 4
   const [
-    VirtualKeyboardKeyAction.Shift,
     'z',
     'x',
     'c',
@@ -95,17 +94,15 @@ const List<List> _defaultEnglishLayout = [
     'm',
     ',',
     '.',
-    '/',
     VirtualKeyboardKeyAction.Shift
   ],
   // Row 5
   const [
-    VirtualKeyboardKeyAction.SwithLanguage,
+    VirtualKeyboardKeyAction.SwitchLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
-    '-',
-    '&',
-    '_',
+    VirtualKeyboardKeyAction.Left,
+    VirtualKeyboardKeyAction.Right,
   ]
 ];
 
@@ -122,6 +119,7 @@ const List<List> _defaultArabicLayout = [
     '8',
     '9',
     '0',
+    VirtualKeyboardKeyAction.Delete
   ],
   // Row 2
   const [
@@ -136,7 +134,6 @@ const List<List> _defaultArabicLayout = [
     'خ',
     'ح',
     'ج',
-    'د',
     VirtualKeyboardKeyAction.Backspace
   ],
   // Row 3
@@ -167,16 +164,18 @@ const List<List> _defaultArabicLayout = [
     'و',
     'ز',
     'ظ',
-    VirtualKeyboardKeyAction.Shift
+    'د',
+    '،',
+    '.',
   ],
   // Row 5
   const [
-    VirtualKeyboardKeyAction.SwithLanguage,
+    VirtualKeyboardKeyAction.SwitchLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
-    '-',
-    '.',
-    '_',
+    VirtualKeyboardKeyAction.Left,
+    VirtualKeyboardKeyAction.Right,
+
   ]
 ];
 
@@ -241,7 +240,7 @@ const List<List> _defaultKurdishLayout = [
   ],
   // Row 5
   const [
-    VirtualKeyboardKeyAction.SwithLanguage,
+    VirtualKeyboardKeyAction.SwitchLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
     '-',
